@@ -25,4 +25,3 @@ def post(interval = 0.5):
   if time.time() - tState > interval:
     send(state)
     tState = time.time()
-
