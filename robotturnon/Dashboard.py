@@ -6,4 +6,5 @@ RPL.pinMode(17,RPL.INPUT)
 
 while True:
   PTW.state['d1'] = RPL.digitalRead(17)
+  PTW.state['d2'] = RPL.digitalRead(23)
   PTW.post()
