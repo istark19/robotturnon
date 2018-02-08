@@ -7,5 +7,5 @@ sensor_pin = 17
 RPL.pinMode(sensor_pin,RPL.INPUT)
 
 while True:
-  PTW.state['d1'] = RPL.digitalRead(17)
+  PTW.state['d1'] = RPL.digitalRead(sensor_pin)
   PTW.post()
